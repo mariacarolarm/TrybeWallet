@@ -1,1 +1,4 @@
-// Coloque aqui suas actions
+export const savedEmail = (email: string) => ({
+  type: 'INPUT_EMAIL',
+  payload: email,
+});
