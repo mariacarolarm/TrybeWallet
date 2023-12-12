@@ -1,5 +1,7 @@
 // Esse reducer será responsável por tratar o todas as informações relacionadas as despesas
 
+import { ExpensesType } from '../../services/types';
+
 const INITIAL_STATE = {
   currencies: [],
   expenses: [],
@@ -30,6 +32,12 @@ const wallet = (state = INITIAL_STATE, action: any) => {
     case 'NEW_REQUEST':
       return {
         ...state,
+      };
+    case 'DELETE_EXPENSE':
+      return {
+        ...state,
+        expenses: state.expenses
+          .filter((expense: ExpensesType) => expense.id !== action.payload),
       };
     default:
       return state;

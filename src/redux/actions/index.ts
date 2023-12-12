@@ -24,6 +24,11 @@ export const newRequest = () => ({
   type: 'NEW_REQUEST',
 });
 
+export const deleteExpense = (expenseId: number) => ({
+  type: 'DELETE_EXPENSE',
+  payload: expenseId,
+});
+
 export const currenciesApi = () => async (dispatch: ThunkType) => {
   try {
     dispatch(newRequest());
