@@ -14,7 +14,7 @@ const wallet = (state = INITIAL_STATE, action: any) => {
         ...state,
         expenses: [
           ...state.expenses,
-          ...action.payload, // Spread the array elements directly
+          ...action.payload,
         ],
       };
     case 'CHOSEN_CURRENCIES':
