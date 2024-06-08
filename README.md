@@ -1,10 +1,18 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Sobre o Projeto
+
+Neste projeto, eu desenvolvi uma carteira de controle de gastos com conversor de moedas. Ao utilizar essa aplicação, a pessoa usuária deverá ser capaz de:
+
+- Adicionar, remover e editar um gasto.
+- Visualizar sua tabela de gastos.
+- Visualizar o total de gastos convertidos para uma moeda de sua escolha.
+
+## Habilidades Utilizadas
+
+Neste projeto eu utilizei minhas habilidades em:
+
+- Criar um store Redux em aplicações React.
+- Criar reducers no Redux em aplicações React.
+- Criar actions no Redux em aplicações React.
+- Criar dispatchers no Redux em aplicações React.
+- Usar os hooks do Redux para manipulação e leitura do estado global.
+- Criar actions assíncronas na aplicação React que faz uso de Redux.
